@@ -133,6 +133,6 @@ anchor test --skip-local-validator --skip-deploy
 
 ## Key Takeaways
 - The `seeds` and `bump` constraints are used to initialize and validate PDA accounts in Anchor
-- - The `init_if_needed` constraint is used to conditionally initialize a new account
+- The `init_if_needed` constraint is used to conditionally initialize a new account
 - The `realloc` constraint is used to reallocate space on an existing account
 - The `close` constraint is used to close an account and refund its rent
